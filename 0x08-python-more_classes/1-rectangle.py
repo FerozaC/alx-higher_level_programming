@@ -38,7 +38,9 @@ class Rectangle:
             raise ValueError("height must be >= 0")
         self.__height = value
 
+
 if __name__ == "__main__":
+
     rect = Rectangle()
     print(f"Width: {rect.width}, Height: {rect.height}")
     rect.width = 10
